@@ -39,7 +39,7 @@ return (
             <p className='text-slate-500'>You can always change this later from settings</p>
             <div className='w-full'>
                 <label className='text-slate-400'>Team Name</label>
-                <Input placeholder="Ex. TubeGuruji" 
+                <Input placeholder="Ex. Business Name" 
                 className="mt-2"
                 onChange={(event)=>setBusinessName(event.target.value)}
                 />

@@ -29,7 +29,6 @@ function Hero() {
         transition={{ delay: 0.5, duration: 0.8 }} 
         className='flex flex-col gap-5 mt-8'
       >
-        <h3 className='text-sm text-gray-600'>Sign Up free with Google</h3>
 
         <div className='flex justify-center'>
           <LoginLink>
@@ -47,8 +46,8 @@ function Hero() {
         </div>
 
         <LoginLink>
-          <h2 className='text-blue-600 hover:underline cursor-pointer text-lg font-semibold'>
-            Sign up Free with Email.
+          <h2 className='text-blue-600 hover:underline cursor-pointer text-lg font-semibold flex justify-center'>
+            Sign up Free with Email
           </h2>
         </LoginLink>
       </motion.div>

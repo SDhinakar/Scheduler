@@ -42,7 +42,7 @@ import {
                 <Img
                   style={image}
                   width={620}
-                  src={'https://yt3.googleusercontent.com/LtM9aKdQGsx4SyoAvnBSOxxoTXlqgUUr9iQJveGRmrzMIdjONEToRJ6mT6ysmKog9AaKast3IGY=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj'}
+                  // src={'https://yt3.googleusercontent.com/LtM9aKdQGsx4SyoAvnBSOxxoTXlqgUUr9iQJveGRmrzMIdjONEToRJ6mT6ysmKog9AaKast3IGY=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj'}
                 />
               </Row>
   
@@ -73,15 +73,15 @@ import {
                     {meetingTime}
                   </Text>
                   <Text style={{ ...paragraph, marginTop: -5 }}>
-                    <b>date: </b>
+                    <b>Date: </b>
                     {date}
                   </Text>
                   <Text style={{ ...paragraph, marginTop: -5 }}>
-                    <b>Location: </b>
+                    <b>Platform: </b>
                     {meetingUrl}
                   </Text>
                   <Text style={{ ...paragraph, marginTop: -5 }}>
-                    <b>duration: </b>
+                    <b>Duration: </b>
                     {duration}
                   </Text>
                   <Text
@@ -92,7 +92,7 @@ import {
                     }}
                   >
                     *Please Join meeting on above details
-                    {meetingUrl}
+                    {/* {meetingUrl} */}
                   </Text>
   
                 
@@ -109,7 +109,7 @@ import {
               <Img
                 style={image}
                 width={620}
-                src={'https://yt3.googleusercontent.com/LtM9aKdQGsx4SyoAvnBSOxxoTXlqgUUr9iQJveGRmrzMIdjONEToRJ6mT6ysmKog9AaKast3IGY=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj'}
+                // src={'https://yt3.googleusercontent.com/LtM9aKdQGsx4SyoAvnBSOxxoTXlqgUUr9iQJveGRmrzMIdjONEToRJ6mT6ysmKog9AaKast3IGY=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj'}
               />
             </Section>
   
